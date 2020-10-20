@@ -1,0 +1,27 @@
+PODS:
+  - Expecta (1.0.6)
+  - MyTest (0.1.0)
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - Expecta
+  - MyTest (from `../`)
+  - Specta
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  MyTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  MyTest: c5468e3b3b19303b4ef123c6842b50943dd1eccd
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 1b1065e8a15d2ca2ae0c4097ea8d16c33d1a9e8d
+
+COCOAPODS: 1.9.3
